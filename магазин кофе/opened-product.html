@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opened-product</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-line">
+                <div class="header-line-wrapper">
+                    <div class="header-lng">
+                        <a href="#">Ru</a>
+                        <a href="#" class="active">En</a>
+                    </div>
+                    <a id="tel" href="#" class="header-phone">+78007006050</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header-block">
+                    <nav class="nav">
+                        <a class="nav-link active" href="кофе.html">Home</a>
+                        <a class="nav-link" href="кофе.html">About</a>
+                        <a class="nav-link" href="кофе.html">Menu</a>
+                        <a class="nav-link" href="#">Reservation</a>
+                    </nav>
+                </div>
+
+                <a href="#" class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+
+                <div class="header-block right">
+                    <div class="header-actions">
+                        </a>
+                        <a class="header-link" href="#">
+                            <img src="img/profile.svg" alt="profile">
+                        </a>
+                        <a class="header-link" href="#">
+                            <img src="img/favorite.svg" alt="favorite">
+                        </a>
+                        <a class="header-link" href="checkout.html">
+                            <img src="img/cart.svg" alt="cart">
+                            <span class="event"></span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header> 
+    
+    
+    <div class="container">
+
+        <div class="product">
+            <div class="block-title">
+                Lavazza Crema E Gusto
+            </div>
+            <div class="product-wrapper">
+                <div class="product-image">
+                    <div class="product-item">
+                        <img class="product-picture" src="img/product1.png" alt="coffee-image">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-item">
+                        <div class="product-price">
+                            $19.99
+                            <del>$29.99</del>
+                        </div>
+                        <form class="product-form">
+                            <div class="radio-wrapper">
+                                <div class="radio">
+                                    <input type="radio" class="radio-input" id="radio-1" name="product-size" required>
+                                    <label for="radio-1" class="radio-label">L</label>
+                                </div>
+
+                                <div class="radio">
+                                    <input type="radio" class="radio-input" id="radio-2" name="product-size" required>
+                                    <label for="radio-2" class="radio-label">XL</label>
+                                </div>
+
+                                <div class="radio">
+                                    <input type="radio" class="radio-input" id="radio-3" name="product-size" required>
+                                    <label for="radio-3" class="radio-label">XXL</label>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-main btn-full" type="submit">Add to cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="product-footer">
+                <div class="block-title">
+                    Description
+                </div>
+                <div class="product-item">
+                    <ul>
+                        <li>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </li>
+                        <li>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</li>
+                        <li>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </li>
+                        <li>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="block-title">Other Products</h2>
+        <div class="block-wrapper">
+            <!--products block-->
+            <div class="products-block">
+                <a class="products-item" href="#">
+                    <img class="products-img" src="img/product.png" alt="coffee product">
+                    <h3 class="products-title">Lavazza coffee</h3>
+                    <div class="products-footer">
+                        <div class="products-price">
+                            $19.99
+                            <del>$29.99</del>
+                        </div>
+                        <button type="button" class="products-favorite">
+                            <img src="img/favorite.svg" alt="like">
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <div class="products-block">
+                <a class="products-item" href="#">
+                    <img class="products-img" src="img/product2.png" alt="coffee product">
+                    <h3 class="products-title">Lavazza coffee</h3>
+                    <div class="products-footer">
+                        <div class="products-price">
+                            $19.99
+                            <del>$29.99</del>
+                        </div>
+                        <button type="button" class="products-favorite">
+                            <img src="img/favorite.svg" alt="like">
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <div class="products-block">
+                <a class="products-item" href="#">
+                    <img class="products-img" src="img/product.png" alt="coffee product">
+                    <h3 class="products-title">Lavazza coffee</h3>
+                    <div class="products-footer">
+                        <div class="products-price">
+                            $19.99
+                            <del>$29.99</del>
+                        </div>
+                        <button type="button" class="products-favorite">
+                            <img src="img/favorite.svg" alt="like">
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <!--products block-->
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-block">
+                    <a class="footer-logo" href="#">
+                        <img src="img/footer-logo.png" alt="footer-logo">
+                    </a> 
+                </div>
+                <div class="footer-block">
+                    <nav class="nav nav-footer">
+                        <a class="nav-link" href="кофе.html">Home</a>
+                        <a class="nav-link" href="кофе.html">About</a>
+                        <a class="nav-link" href="кофе.html">Menu</a>
+                        <a class="nav-link" href="#">Reservation</a>
+                    </nav>    
+                </div>
+                <div class="footer-block">
+                    <nav class="nav">
+                        <a class="nav-link" href="#tel">Contacts</a>
+                        <a class="nav-link" href="#">Privacy policy</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
